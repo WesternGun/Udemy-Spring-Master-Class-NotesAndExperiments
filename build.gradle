@@ -48,7 +48,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.6'
     annotationProcessor 'org.projectlombok:lombok:1.18.6'
     // wiremock without other dependencies
-    testCompile('com.github.tomakehurst:wiremock-jre8-standalone:2.21.0')
+    testCompile 'com.github.tomakehurst:wiremock-jre8-standalone:2.21.0'
 }
 
 // disable "doclint" in Java 8 to avoid strict Javadoc check
