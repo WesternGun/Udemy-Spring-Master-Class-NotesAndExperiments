@@ -42,7 +42,7 @@ factoryConfiguration.json
 # auto-import.
 .idea/modules.xml
 .idea/*.iml
--.idea/compiler.xml # for annotation processing settings
+!.idea/compiler.xml # for annotation processing settings
 .idea/modules
 
 # CMake
