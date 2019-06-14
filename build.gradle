@@ -42,6 +42,12 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework.boot:spring-boot-starter-security'
     testImplementation 'org.springframework.security:spring-security-test'
+    // junit 5
+    compile ('org.junit.jupiter:junit-jupiter-api')
+    testImplementation ('org.junit.jupiter:junit-jupiter-api')
+    testCompile ('org.junit.jupiter:junit-jupiter-params')
+    testRuntime ('org.junit.jupiter:junit-jupiter-engine')
+    testCompile ('org.mockito:mockito-junit-jupiter')
     // code
     // official way of importing Lombok
     // If without version, it has to be managed by Spring Boot dependency plugin, I guess?

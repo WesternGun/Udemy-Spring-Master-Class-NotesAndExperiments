@@ -1,4 +1,4 @@
-package io.westerngun.udemyspringmasterclass.model;
+package io.westerngun.udemyspringmasterclass.common;
 
 public interface SortAlgorithm {
 
